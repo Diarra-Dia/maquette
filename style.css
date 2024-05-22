@@ -1,0 +1,468 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+.menu-g {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  width: 20%;
+}
+
+.menu li {
+  list-style: none;
+  margin: 0 15px;
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+.panier img {
+  width: 20;
+  height: 30px;
+  margin-top: 5px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.material-icons {
+  margin: 15px;
+  margin-top: 15px;
+}
+.submit {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 6px;
+  background-color: darkgreen;
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.container .box1 h3 {
+  padding-top: 10%;
+  color: darkgreen;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.container .box1 h1 {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.container .box1 p {
+  font-size: 10px;
+  padding-left: 38px;
+  margin-bottom: 10px;
+}
+.button {
+  position: relative;
+  padding: 16px 16px;
+  background-color: darkgreen;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 40%;
+  cursor: pointer;
+}
+.box2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.box2 img {
+  width: 300px;
+  height: 300px;
+}
+.container2 {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.gauche {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #fff;
+  margin-left: 60px;
+  border-radius: 10px;
+}
+.gauche img {
+  height: 100px;
+  margin: 10px 30px;
+  padding: 10px;
+}
+.droite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 60px;
+  padding-left: 80px;
+  border-radius: 10px;
+}
+.droite h2 {
+  margin-top: 10px;
+  color: goldenrod;
+  text-decoration: underline;
+}
+.droite P {
+  font-size: 14px;
+  margin: 15px;
+}
+.lesImg {
+  display: flex;
+  flex-direction: row;
+}
+.lesImg img {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #eee;
+  border-radius: 0 45px 0 45px;
+  margin: 30px;
+}
+#produit {
+  width: 100%;
+  height: 650px;
+}
+#produit .textp {
+  color: darkgreen;
+  text-align: center;
+}
+.lesproduits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.produit1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 250px;
+  background-color: #fff;
+  margin: 0 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.produit1 img {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.produit1 ul {
+  display: flex;
+}
+.produit1 li {
+  list-style: none;
+  color: darkgreen;
+}
+.produit1 h3 {
+  color: darkgreen;
+}
+.Ajouter {
+  width: 100%;
+  border: 0;
+  padding: 4px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: darkgreen;
+}
+
+#Temoignages {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Temoignages P {
+  font-size: 10px;
+  margin-top: 7px;
+}
+.lesTemoignages {
+  display: flex;
+}
+.TemoignagesA {
+  width: 160px;
+  height: 210px;
+  background-color: #fff;
+  margin: 0 15px;
+  margin-top: 20px;
+}
+.TemoignagesA img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.block-bouteilles {
+  width: 600px;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+.bouteille-1 {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.lorem {
+  margin-bottom: 20px;
+}
+.container6 {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container6 {
+  background: rgba(0, 0, 0, 0.7) url(img/cereal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: darken;
+}
+.container6 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container6 input {
+  padding: 10px;
+}
+.container6 #email {
+  width: 600px;
+  margin: 700px;
+}
+.container6 .submit2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.submit2 input {
+  color: #fff;
+  background-color: darkgreen;
+  border: 0;
+  cursor: pointer;
+  margin: 10px 15px;
+  width: 300px;
+  padding: 20px;
+}
+.NOSServices h3 {
+  position: relative;
+  color: darkgreen;
+  text-align: center;
+}
+.SERVICES {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.servicel img {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+}
+.servicel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 288px;
+  margin: 0 10px;
+  padding: 15px;
+  box-shadow: rgba(149, 157, 165);
+  background-color: #fff;
+}
+.servicel p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.servicel h4 {
+  color: darkgreen;
+}
+.contact {
+  width: 100%;
+  height: 350px;
+}
+.contact {
+  background: rgba(0, 0, 0, 0.8) url(img/images.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-size: 100%;
+}
+
+.contact h3 {
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.information input {
+  width: 500px;
+  margin: auto;
+  padding: 6px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  outline: 0;
+  background-color: #fff;
+  border: 0;
+}
+.information input::placeholder {
+  color: rgba(218, 202, 201, 0.8);
+  padding-left: 10px;
+}
+.textarea textarea {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 500px;
+  margin-left: 8px;
+  padding: 10px;
+  outline: 0px;
+}
+.submit {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+.pied-de-page {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+.objectifs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+}
+.objectifs h4 {
+  color: #fff;
+  margin-left: 70px;
+}
+.objectifs p {
+  font-size: 10px;
+  color: #fff;
+  width: 30%;
+  padding: 20 px;
+}
+.heure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.heure h4 {
+  color: #fff;
+  margin-right: 10px;
+}
+.heure p {
+  color: #fff;
+  justify-content: center;
+  font-size: 10px;
+}
+.cordonnes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 40%;
+  padding: 20px;
+}
+.cordonnes h4 {
+  color: #fff;
+  margin-left: 70px;
+}
+.cordonnes p {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
